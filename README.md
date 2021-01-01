@@ -23,4 +23,4 @@ bubble_sorter.sort('goose', 'duck', 'cow', 'chicken', 'horse') # returns ['chick
 Raise an issue [here](https://github.com/MasterJindu/Bubble-Sort-Python/issues)
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/MasterJindu/Bubble-Sort-Python/blob/main/LICENSE)
