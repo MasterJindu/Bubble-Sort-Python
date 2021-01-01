@@ -1,10 +1,12 @@
 # Bubble Sort Python
 
-Bubble Sort Python is a Python module for dealing with bubble sort needs in python. Although python already has an in-built sort mechanism — `sort()` I thought this would be a fun project!
+Bubble Sort Python is a Python module for dealing with bubble sort needs in python. Although python already has an in-built sort mechanism — `sort()` I thought this would be a fun project! 
+
+N.B: There is no point downloading the code unless you want to modify it.
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Bubble Sort Python.
 
 ```bash
 pip install bubble-sorter
