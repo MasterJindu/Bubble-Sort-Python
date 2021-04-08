@@ -2,6 +2,7 @@ from progress.bar import IncrementalBar
 from stopwatch import Stopwatch
 from progress.bar import IncrementalBar
 import random
+import os
 global opts
 global bubble_sort_order
 bubble_sort_order = 'asc'
@@ -10,6 +11,10 @@ speed_test_check = False
 stopwatch = Stopwatch()
 global number
 number = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+import pkg_resources
+resource_package = os.path.dirname(__file__)
+resource_path = '/wordlist.txt'
+wordsfile = ''.join((resource_package, resource_path))
 def create_list(user_tup):
     global user_list
     user_list = list(user_tup)
@@ -33,7 +38,7 @@ def speed_test(no_of_vals, **opts):
     global speed_test_tuple
     speed_test_list = []
     if opts['type'] == 'str':
-        ext_dict = open("wordlist.txt", "r")
+        ext_dict = open(wordsfile, 'r')
         dict_list = []
         with IncrementalBar('Loading English Dictionary...', max=10000) as bar:
             for line in ext_dict:
