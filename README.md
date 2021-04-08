@@ -12,7 +12,7 @@ pip install bubble-sorter
 
 ## Usage
 
-####Basic Sorting
+#### Basic Sorting
 
 ```python
 import bubble_sorter
@@ -23,7 +23,7 @@ rev_sort(2, 1, 3, 19, 8, 4, order = 'desc') # returns [19, 8, 4, 3, 2, 1]
 
 ```
 
-####Using Speed Test
+#### Using Speed Test
 
 ```python
 import bubble_sorter
