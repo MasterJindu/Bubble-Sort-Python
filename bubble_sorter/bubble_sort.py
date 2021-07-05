@@ -48,7 +48,7 @@ def speed_test(no_of_vals, **opts):
             bar.finish()
         with IncrementalBar('Generating Random Values...', max=no_of_vals) as bar:        
             for n in range(no_of_vals):
-                random_int = random.randint(0, 10000)
+                random_int = random.randint(0, 9999)
                 speed_test_list.append(dict_list[random_int])
                 bar.next()
             speed_test_tuple = tuple(speed_test_list)
